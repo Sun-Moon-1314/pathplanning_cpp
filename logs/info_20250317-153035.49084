@@ -1,0 +1,7 @@
+Log file created at: 2025/03/17 15:30:35
+Running on machine: ZJ-LEGION
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250317 15:30:35.578054 17792 main.cpp:18] This is an informational message.
+W20250317 15:30:35.579385 17792 main.cpp:19] This is a warning message.
+E20250317 15:30:35.579751 17792 main.cpp:20] This is an error message.

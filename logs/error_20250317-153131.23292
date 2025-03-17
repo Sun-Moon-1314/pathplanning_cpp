@@ -1,0 +1,5 @@
+Log file created at: 2025/03/17 15:31:31
+Running on machine: ZJ-LEGION
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250317 15:31:31.522377 12852 main.cpp:20] This is an error message.
