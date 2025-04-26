@@ -3,3 +3,4 @@ build/
 logs/
 x64/
 *.vcxproj
+*.vcxproj.*
