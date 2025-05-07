@@ -1,0 +1,5 @@
+if(EXISTS "C:/Dev/CppSerious/pathplanning/tests/google_test/MyGoogleTest[1]_tests.cmake")
+  include("C:/Dev/CppSerious/pathplanning/tests/google_test/MyGoogleTest[1]_tests.cmake")
+else()
+  add_test(MyGoogleTest_NOT_BUILT MyGoogleTest_NOT_BUILT)
+endif()

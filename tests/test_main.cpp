@@ -5,7 +5,8 @@
 #include "boost/algorithm/dijkstra/dijsktra_core.h"
 #include "boost/algorithm/floyd/floyd_core.h"
 #include "boost/algorithm/a_star/a_star.h"
-
+#include "../build/cmake/Version.h"
+#include "../build/cmake/Config.h"
 
 using namespace boost::algorithm::dijkstra;
 using namespace boost::algorithm::floyd;
@@ -63,11 +64,13 @@ void test_vector() {
 	//two_dim_vector.push_back(one_dim_vector);
 	//std::cout << two_dim_vector.size();
 }
-#define TEST_MAIN
 
-#ifdef TEST_MAIN
-
+#if TEST_MAIN
 int main(int argc, char* argv[]) {
+	std::cout << "Version: "
+		<< PROJECT_VERSION_MAJOR << "."
+		<< PROJECT_VERSION_MINOR << "."
+		<< PROJECT_VERSION_PATCH << std::endl;
 	// ³õÊ¼»¯ glog
 	google::InitGoogleLogging(argv[0]);
 

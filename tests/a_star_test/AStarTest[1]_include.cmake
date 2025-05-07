@@ -1,0 +1,5 @@
+if(EXISTS "C:/Dev/CppSerious/pathplanning/tests/a_star_test/AStarTest[1]_tests.cmake")
+  include("C:/Dev/CppSerious/pathplanning/tests/a_star_test/AStarTest[1]_tests.cmake")
+else()
+  add_test(AStarTest_NOT_BUILT AStarTest_NOT_BUILT)
+endif()

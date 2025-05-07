@@ -6,10 +6,10 @@ set(COMMON_SRCS
     "${CMAKE_CURRENT_SOURCE_DIR}/node.cpp"
 )
 # raise staric link lib
-add_library(COMMON STATIC ${COMMON_SRCS})
+add_library(COMMON OBJECT "${COMMON_SRCS}")
 
 # include responding .h file
-target_include_directories(COMMON PUBLIC ${CMAKE_SOURCE_DIR}/include/boost/common)
+target_include_directories(COMMON PUBLIC "${CMAKE_SOURCE_DIR}/include/boost/common")
 
 # link to pch.h
 target_link_libraries(COMMON PRIVATE PCH)
